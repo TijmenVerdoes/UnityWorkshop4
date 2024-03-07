@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 2305889791230125556}
   - component: {fileID: 452383896189019000}
   - component: {fileID: 3100389782355105768}
+  - component: {fileID: 5288902363171184272}
+  - component: {fileID: 902388684983468651}
+  - component: {fileID: 4567729064390685248}
   m_Layer: 0
   m_Name: EvilHan
   m_TagString: Untagged
@@ -146,5 +149,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfaf17ecc7c1e134b867e10c5f463036, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5288902363171184272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381108647570560021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc48e14fa4fe514a8d15ccdfc845f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleState: {fileID: 902388684983468651}
+  chaseState: {fileID: 4567729064390685248}
+--- !u!114 &902388684983468651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381108647570560021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c1b8c79c743b54bbf086cf65759e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4567729064390685248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381108647570560021}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012258d8e5989dc4eb2908532aae10c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   playerObject: {fileID: 0}
   speed: 2
+  EnemyTransform: {fileID: 381108647570560021}

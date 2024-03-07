@@ -331,6 +331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvilHan
       objectReference: {fileID: 0}
+    - target: {fileID: 4567729064390685248, guid: 58f63d23fe44b8746a5f42ed3a2592d8, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 102565228}
     - target: {fileID: 7822264559346852264, guid: 58f63d23fe44b8746a5f42ed3a2592d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
