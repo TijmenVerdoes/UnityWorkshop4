@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour {
         Vector3 moveDirection = new Vector3(moveInputX, 0f, moveInputZ) * moveSpeed;
         rb.velocity = new Vector3(moveDirection.x, rb.velocity.y, moveDirection.z);
 
-        Debug.Log(isGrounded);
         if (Input.GetButtonDown("Jump") && isGrounded) {
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
         }
